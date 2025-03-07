@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+  <meta name="description"
+    content="แอปพลิเคชัน FriendZone แพลตฟอร์มกลางเชื่อมต่อผู้จัดงานกับดีเจ, MC, PR และวงดนตรี พร้อมระบบสมัครสมาชิก การจอง และการตรวจสอบสมาชิก เพื่อให้การจ้างงานเป็นเรื่องง่ายและสะดวก">
+  <meta name="keywords"
+    content="FriendZone,จ้างดีเจ,จ้าง MC,จ้าง PR,จ้างวงดนตรี,งานอีเวนต์,แพลตฟอร์มจ้างงาน,สมัครสมาชิกดีเจ,สมัครสมาชิก MC,สมัครสมาชิก PR,สมัครสมาชิกวงดนตรี,การจองงาน,การจัดการอีเวนต์,แพลตฟอร์มเชื่อมต่อ,บริหารงานอีเวนต์,การตรวจสอบสมาชิก,จัดหางานบันเทิง,งานเลี้ยง,ดนตรีสด,บริการบันเทิง,รับจ้างแสดงสด">
+  <meta name="author" content="compattana">
+  <meta property="og:url" content="https://friendzoneth.com" />
+  <meta property="og:type" content="application" />
+  <meta property="og:title" content="FriendZone – แพลตฟอร์มจ้างงานสายบันเทิงครบวงจร" />
+  <meta property="og:description"
+    content="FriendZone แพลตฟอร์มกลางที่เชื่อมต่อผู้จัดงานกับดีเจ, MC, PR และวงดนตรี สมัครสมาชิกและจองงานง่าย สะดวก ปลอดภัย พร้อมระบบตรวจสอบสมาชิกเพื่อความมั่นใจของทุกฝ่าย" />
+  <meta property="og:image" content="assets/img/new/cover.jpg" />
+  <title>FriendZone – แพลตฟอร์มจ้างงานดีเจ, MC, PR และวงดนตรี สมัครง่าย จองสะดวก</title>
+
+  <link rel="shortcut icon" href="./assets/img/FZ-logo-light.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- <link rel="stylesheet" href="./assets/css/colors/grape.css"> -->
+  <link rel="stylesheet" href="./assets/css/colors/red.css">
+  <link rel="preload" href="./assets/css/fonts/space.css" as="style" onload="this.rel='stylesheet'">
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header>
+      <nav class="navbar navbar-expand-lg center-nav transparent position-absolute navbar-light caret-none">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <a href="./index.html">
+              <img src="./assets/img/FZ-logo-light.png" width="50" srcset="./assets/img/FZ-logo-light.png 2x" alt="" />
+            
+            </a>
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0">FriendZone</h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link scroll active" href="#home">หน้าแรก</a></li>
+                <li class="nav-item"><a class="nav-link scroll" href="#feature">ฟีเจอร์</a></li>
+                <li class="nav-item"><a class="nav-link scroll" href="#faq">คำถามที่พบบ่อย</a></li>
+                <li class="nav-item"><a class="nav-link scroll" href="#befun">We Friend <span
+                      class="text-gradient gradient-2">be Fun</span></a></li>
+              </ul>
+              <!-- /.navbar-nav -->
+              <!-- <div class="offcanvas-footer d-lg-none">
+                <div>
+                  <a href="mailto:first.last@email.com" class="link-inverse">contact@friendzoneth.com</a> 
+                  <br /> 088-5941049 <br />
+                  <nav class="nav social social-white mt-4">
+                    <a href="#"><i class="uil uil-twitter"></i></a>
+                    <a href="#"><i class="uil uil-facebook-f"></i></a>
+                    <a href="#"><i class="uil uil-dribbble"></i></a>
+                    <a href="#"><i class="uil uil-instagram"></i></a>
+                    <a href="#"><i class="uil uil-youtube"></i></a>
+                  </nav>
+                </div>
+              </div> -->
+              <!-- /.offcanvas-footer -->
+            </div>
+            <!-- /.offcanvas-body -->
+          </div>
+          <!-- /.navbar-collapse -->
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item"><a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-info"><i
+                    class="uil uil-info-circle"></i></a></li>
+              <li class="nav-item d-lg-none">
+                <button class="hamburger offcanvas-nav-btn"><span></span></button>
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+      <div class="offcanvas offcanvas-end text-inverse" id="offcanvas-info" data-bs-scroll="true">
+        <div class="offcanvas-header">
+          <h3 class="text-white fs-30 mb-0">วันเฮง</h3>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body pb-6">
+          <!-- <div class="widget mb-8">
+            <p>Sandbox is a multipurpose HTML5 template with various layouts which will be a great solution for your business.</p>
+          </div> -->
+          <!-- /.widget -->
+          <div class="widget mb-8">
+            <h4 class="widget-title text-white mb-3">ติดต่อเรา</h4>
+            <!-- <address> Moonshine St. 14/05 <br /> Light City, London </address> -->
+            <a href="mailto:first.last@email.com">contact@friendzoneth.com</a><br> 088-5941049
+          </div>
+          <!-- /.widget -->
+          <div class="widget mb-8">
+            <h4 class="widget-title text-white mb-3">นโยบาย</h4>
+            <ul class="list-unstyled">
+              <li><a target="_blank" href="terms-of-use.html">เงื่อนไขการบริการ</a></li>
+              <li><a target="_blank" href="privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /.offcanvas-body -->
+      </div>
+      <!-- /.offcanvas -->
+    </header>
+    <!-- /header -->
+    <section id="home" class="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600"
+      data-image-src="./assets/img/new/section1.jpg">
+      <div class="container pt-16 pt-md-18 pb-9">
+        <div class="row gx-0 gy-10 align-items-center text-center text-lg-start">
+          <div class="col-lg-6 col-xxl-5 position-relative" data-cues="slideInDown" data-group="page-title"
+            data-delay="700">
+            <!-- <img src="./assets/img/svg/doodle1.svg" class="h-9 position-absolute d-none d-lg-block" data-cue="fadeIn"
+              data-delay="3000" style="top: -9%; left: -6%" alt=""> -->
+            <!-- <img src="./assets/img/svg/doodle2.svg" class="h-15 position-absolute d-none d-lg-block" data-cue="fadeIn" data-delay="3000" style="bottom: 9%; right: -22%" alt=""> -->
+            <!-- <img src="./assets/img/new/doodle2.png" class="h-15 position-absolute d-none d-lg-block" data-cue="fadeIn" data-delay="3000" style="bottom: 9%; right: -22%; transform: rotate(23deg);" alt=""> -->
+            <h1 class="display-1 fs-50 mb-4">We Friend
+              <span class="text-gradient gradient-2">be Fun</span>
+            </h1>
+            <p class="lead fs-24 lh-sm mb-7">
+              แอปพลิเคชันที่รวบรวมความสุขหลากหลายภายในที่เดียวที่เราเลือกสรรค์มาอย่างดีเพื่อเพือนของเรา
+              ไม่ว่าจะเป็นเพื่อนทานข้าว ดูหนัง ฟังเพลง ดื่มสังสรรค์ หรือแม้แต่วงดนตรี ดีเจ
+              จัดปาร์ตี้ส่วนตัวก็ทำได้ง่ายๆผ่านแอปพลิเคชันเฟรนด์โซน
+            </p>
+            <div class="d-flex flex-column flex-lg-row gap-2 justify-content-center justify-content-lg-start"
+              data-cues="slideInDown" data-group="page-title-buttons" data-delay="1800">
+              <span><a href="https://apps.apple.com/th/app/wanheng/id6451129842" target="_blank"><img
+                    src="./assets/img/photos/button-appstore.svg" class="h-11 rounded-xl" alt=""></a></span>
+              <span><a href="https://play.google.com/store/apps/details?id=com.compattana.wanheng_app"
+                  target="_blank"><img src="./assets/img/photos/button-google-play.svg" class="h-11 rounded-xl"
+                    alt=""></a></span>
+            </div>
+          </div>
+          <!-- /column -->
+          <div class="col-lg-6 ms-auto mb-n20 mb-xxl-n22" data-cues="slideInDown" data-delay="600">
+            <figure><img src="https://placehold.co/600x600" srcset="https://placehold.co/600x600" alt="">
+            </figure>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+      <div class="overflow-hidden" style="z-index:1;">
+        <div class="divider text-light mx-n2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+            <g fill="currentColor">
+              <polygon points="1440 100 0 100 0 85 1440 0 1440 100" />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <!-- /.overflow-hidden -->
+    </section>
+
+
+    <!-- /section -->
+    <section id="feature" class="wrapper bg-light mt-10">
+      <div class="container py-16 py-md-18 ">
+        <div class="row text-center">
+          <div class="col-md-11 col-lg-9 col-xl-8 col-xxl-7 mx-auto position-relative">
+            <img src="./assets/img/svg/doodle3.svg" class="h-11 position-absolute d-none d-lg-block"
+              style="top: -20%; right: -12%" alt="">
+            <img src="./assets/img/svg/doodle9.svg" class="h-17 position-absolute d-none d-lg-block"
+              style="bottom: 5%; left: -17%" alt="">
+            <h2 class="fs-16 text-uppercase text-muted mb-3 text-center">ทำไมถึงเลือก "Friend Zone" ?</h2>
+            <h3 class="display-3 mb-12 text-center">ฟีเจอร์ที่เรียบง่าย <span
+                class="text-gradient gradient-2">แต่เข้าใจคุณ</span></h3>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="row d-flex align-items-start">
+          <div class="col-lg-6 position-lg-sticky" style="top: 8rem;">
+            <figure><img src="https://placehold.co/630x846" srcset="https://placehold.co/630x846" alt="">
+            </figure>
+          </div>
+          <!-- /column -->
+          <div class="col-lg-5 ms-auto">
+            <div class="d-flex flex-row mb-8">
+              <div>
+                <div class="svg-bg svg-bg-lg bg-pale-pink rounded-xl me-5"><img
+                    src="./assets/svg/clapperboard.svg" class="svg-inject icon-svg solid text-navy" alt="" />
+                </div>
+              </div>
+              <div>
+                <h4 class="fs-20">เพื่อนเที่ยว</h4>
+                <p>เพื่อนเที่ยว ดื่ม ดูหนัง ทานข้าว ออกกำลังกาย จะสายลุยหรือจะช้อปปิ้งชิลๆ
+                  ให้เราไปเป็นเพื่อนทำได้ง่ายๆผ่านบริการภายในแอปพลิเคชันที่เราเตรียมพร้อมไว้เพื่อคุณ
+                  ไม่ว่าคุณจะเป็นใครเราพร้อมดูแลคุณเสมอ
+                </p>
+              </div>
+            </div>
+            <div class="d-flex flex-row mb-8">
+              <div>
+                <div class="svg-bg svg-bg-lg bg-pale-pink rounded-xl me-5"><img
+                    src="./assets/svg/microphone-alt.svg" class="svg-inject icon-svg solid text-navy" alt="" />
+                </div>
+              </div>
+              <div>
+                <h4 class="fs-20">MC,DJ,พิธีกร,นางแบบ,พริตตี้
+                </h4>
+                <p>มากมายไปด้วยประสบการณ์และความสามารถ ไม่ว่าจะงานแต่ง อีเว้นท์ มอเตอร์โชว์ ปาร์ตี้ส่วนตัว ฯลฯ งานไหนๆ
+                  เราก็เอาอยู่
+                </p>
+              </div>
+            </div>
+            <div class="d-flex flex-row mb-8">
+              <div>
+                <div class="svg-bg svg-bg-lg bg-pale-pink rounded-xl me-5"><img
+                    src="./assets/svg/guitar.svg" class="svg-inject icon-svg solid text-navy" alt="" />
+                </div>
+              </div>
+              <div>
+                <h4 class="fs-20">วงดนตรี,นักร้อง
+                </h4>
+                <p>เราคัดสรรค์วงดนตรีคุณภาพไว้มากมาย ที่ภายในแอปพลิเคชันคุณสามารถดูแนวเพลง จำนวนสมาชิกวง
+                  รวมไปถึงตัวอย่างการแสดงเพื่อให้คุณได้ตัดสินใจใช้บริการให้เหมาะสมที่สุดกับกิจกรรมของคุณ</p>
+              </div>
+            </div>
+            <!-- <div class="d-flex flex-row mb-8">
+              <div>
+                <div class="svg-bg svg-bg-lg bg-pale-yellow rounded-xl me-5"><img src="./assets/img/icons/solid/devices.svg" class="svg-inject icon-svg solid text-navy" alt="" /></div>
+              </div>
+              <div>
+                <h4 class="fs-20">Sync Between Devices</h4>
+                <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus magna.</p>
+              </div>
+            </div> -->
+            <!-- <div class="d-flex flex-row mb-8">
+              <div>
+                <div class="svg-bg svg-bg-lg bg-pale-blue rounded-xl me-5"><img src="./assets/img/icons/solid/search.svg" class="svg-inject icon-svg solid text-navy" alt="" /></div>
+              </div>
+              <div>
+                <h4 class="fs-20">Smart Search</h4>
+                <p>Aenean lacinia bibendum nulla sed consectetur. Nulla vitae elit libero, a pharetra augue. Maecenas faucibus mollis interdum.</p>
+              </div>
+            </div> -->
+            <!-- <div class="d-flex flex-row mb-8">
+              <div>
+                <div class="svg-bg svg-bg-lg bg-pale-leaf rounded-xl me-5"><img src="./assets/img/icons/solid/compare.svg" class="svg-inject icon-svg solid text-navy" alt="" /></div>
+              </div>
+              <div>
+                <h4 class="fs-20">Detailed Reports</h4>
+                <p>Pellentesque ornare sem lacinia quam venenatis vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Cum sociis natoque penatibus et magnis dis parturient montes.</p>
+              </div>
+            </div>
+          </div> -->
+            <!-- /column -->
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- /section -->
+    <section id="faq" class="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600 bg-content"
+      data-image-src="./assets/img/new/section1.jpg">
+      <div class="container py-14 pt-md-16 pb-md-17 position-relative" style="z-index: 2;">
+        <div class="row">
+          <div class="col-xl-11 col-xxl-10 mx-auto">
+            <div class="position-relative">
+              <img src="./assets/img/svg/doodle7.svg" class="h-7 position-absolute d-none d-lg-block" data-delay="1800"
+                style="top: -90%; right: -3%" alt="">
+              <img src="./assets/img/svg/doodle8.svg" class="h-14 position-absolute d-none d-lg-block" data-delay="1800"
+                style="top: -20%; left: -12%" alt="">
+              <h2 class="fs-16 text-uppercase text-muted mb-3 text-center">คำถาม</h2>
+              <h3 class="display-3 mb-11 px-lg-8 px-xl-11 text-center">หากคุณไม่เห็น <span
+                  class="text-gradient gradient-2">คำตอบ</span> ที่คุณต้องการ <br>กรุณาส่งคำถามมาหาเราได้ทางอีเมล</h3>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 mb-0">
+                <div id="accordion-1" class="accordion-wrapper">
+                  <div class="card accordion-item shadow-lg">
+                    <div class="card-header" id="accordion-heading-1-1">
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-1"
+                        aria-expanded="false"
+                        aria-controls="accordion-collapse-1-1">แอปพลิเคชันเฟรนด์โซนมีความน่าเชื่อถือมั้ย??
+                      </button>
+                    </div>
+                    <!-- /.card-header -->
+                    <div id="accordion-collapse-1-1" class="collapse" aria-labelledby="accordion-heading-1-1"
+                      data-bs-target="#accordion-1">
+                      <div class="card-body">
+                        <p>แอปพลิเคชันเฟรนด์โซนจัดทำโดยห้างหุ้นส่วนจำกัดเฟรนด์โซนเอนเตอร์เทนเมนท์
+                          มีการจดทะเบียนถูกต้องตามกฏหมาย
+                          และมีการประกาศข้อนโยบายต่างๆไว้อย่างชัดเจนซึึ่งช่วยยืนยันในเรื่องความน่าเชื่อถือได้</p>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.collapse -->
+                  </div>
+                  <!-- /.card -->
+                  <div class="card accordion-item shadow-lg">
+                    <div class="card-header" id="accordion-heading-1-2">
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-1-2"
+                        aria-expanded="false" aria-controls="accordion-collapse-1-2">สมัครใช้งานได้อย่างไร??</button>
+                    </div>
+                    <!-- /.card-header -->
+                    <div id="accordion-collapse-1-2" class="collapse" aria-labelledby="accordion-heading-1-2"
+                      data-bs-target="#accordion-1">
+                      <div class="card-body">
+                        <p>เราข้ามขั้นตอนการสมัครแบบส่งเอกสารเพื่อให้คุณสมัครได้ง่ายขึ้น
+                          ผ่านการกดสมัครใช้งานในแอปพลิเคชันเฟรนด์โซน(ในหน้าล๊อคอิน)
+                          แต่อย่างไรก็ดีคุณยังต้องส่งรูปภาพประกอบการสมัครตามที่เราร้องขอ
+
+                        </p>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.collapse -->
+                  </div>
+                  <!-- /.card -->
+                </div>
+                <!-- /.accordion-wrapper -->
+              </div>
+              <!--/column -->
+              <div class="col-lg-6">
+                <div id="accordion-2" class="accordion-wrapper">
+                  <div class="card accordion-item shadow-lg">
+                    <div class="card-header" id="accordion-heading-2-1">
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-1"
+                        aria-expanded="false" aria-controls="accordion-collapse-2-1">จะมั่นใจได้ยังไงว่าตรงปก??
+                      </button>
+                    </div>
+                    <!-- /.card-header -->
+                    <div id="accordion-collapse-2-1" class="collapse" aria-labelledby="accordion-heading-2-1"
+                      data-bs-target="#accordion-2">
+                      <div class="card-body">
+                        <p>เรามีการคัดกรองเบื้องต้นสำหรับผู้ที่สมัครมาเป็นพาร์ทเนอร์กับเรา
+                          อีกทั้งภายใจแอปพลิเคชันเฟรนด์โซนมีฟังก์ชั่นการให้คะแนน และรีวิว
+                          ซึึ่งคุณสามารถใช้เป็นส่วนหนึ่งในการตัดสินใจใช้บริการโซลูชั่นที่เราให้บริการได้
+                        </p>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.collapse -->
+                  </div>
+                  <!-- /.card -->
+                  <div class="card accordion-item shadow-lg">
+                    <div class="card-header" id="accordion-heading-2-2">
+                      <button class="collapsed" data-bs-toggle="collapse" data-bs-target="#accordion-collapse-2-2"
+                        aria-expanded="false" aria-controls="accordion-collapse-2-2">แอปฯมีความปลอดภัยมั้ย?
+                      </button>
+                    </div>
+                    <!-- /.card-header -->
+                    <div id="accordion-collapse-2-2" class="collapse" aria-labelledby="accordion-heading-2-2"
+                      data-bs-target="#accordion-2">
+                      <div class="card-body">
+                        <p>เรามีนโยบายชัดเจนในเรื่องการห้ามนัดหมายในที่รโหฐาฬ
+                          รวมทั้งมีการติดตามในช่วงเวลานัดหมายและแอดมินที่คอยซัพพอร์ตคุณอยู่เสมอทำให้คุณอุ่นใจได้ทุกเวลา
+                        </p>
+                      </div>
+                      <!-- /.card-body -->
+                    </div>
+                    <!-- /.collapse -->
+                  </div>
+                  <!-- /.card -->
+                </div>
+                <!-- /.accordion-wrapper -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="befun" class="wrapper image-wrapper bg-full bg-image bg-overlay bg-overlay-light-600">
+      <div class="overflow-hidden" style="z-index:1;">
+        <div class="divider divider-alt text-light mx-n2">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 100">
+            <g fill="currentColor">
+              <polygon points="1440 100 0 15 0 0 1440 0 1440 100" />
+            </g>
+          </svg>
+        </div>
+      </div>
+      <!-- /.overflow-hidden -->
+      <div class="container pt-10 pt-lg-10 pt-md-13 pb-8 pb-md-10 text-center text-lg-start">
+        <div class="row gx-0 gy-10">
+          <div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 col-xl-5 position-relative">
+            <img src="./assets/img/svg/doodle2.svg" class="h-15 position-absolute d-none d-lg-block"
+              style="bottom: 36%; right: -25%" alt="">
+            <img src="./assets/img/svg/doodle6.svg" class="h-14 position-absolute d-none d-lg-block" data-delay="1800"
+              style="top: -20%; left: -25%" alt="">
+            <h2 class="display-3 mb-4">We Friend
+              <span class="text-gradient gradient-2">be Fun</span>
+            </h2>
+            <p class="lead fs-24 lh-sm mb-7">เราตั้งเป้าหมายที่เป็นแอปพลิเคชันอันดับหนึ่งที่รวบรวมความสุข
+              ความสนุกสนานต่างๆ ไว้เพื่อบริการเพื่อนๆของเรา
+              เราคาดหวังว่าทุกบริการที่เราคัดสรรค์ไว้จะทำให้เพื่อนๆที่ใช้บริการประทับใจเสมอ เพราะว่า “เพื่อนสำคัญที่สุด”
+            </p>
+            <div class="d-flex flex-column flex-lg-row gap-2 justify-content-center justify-content-lg-start">
+              <span><a href="https://apps.apple.com/th/app/wanheng/id6451129842" target="_blank"><img
+                    src="./assets/img/photos/button-appstore.svg" class="h-11 rounded-xl" alt=""></a></span>
+              <span><a href="https://play.google.com/store/apps/details?id=com.compattana.wanheng_app"
+                  target="_blank"><img src="./assets/img/photos/button-google-play.svg" class="h-11 rounded-xl"
+                    alt=""></a></span>
+            </div>
+          </div>
+          <!-- /column -->
+          <div class="col-lg-6 ms-auto mt-lg-n15 mt-xl-n20">
+            <figure><img src="https://placehold.co/645x867" srcset="https://placehold.co/645x867 2x" alt="">
+            </figure>
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+  </div>
+  <!-- /.content-wrapper -->
+  <footer id="contact" class="bg-light">
+    <div class="container py-13 py-md-15">
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <img class="mb-4" src="https://placehold.co/100x50" srcset="https://placehold.co/200x100 2x" alt="">
+            <p class="mb-4">© 2025 FriendZone <br class="d-none d-lg-block">Powered by <a target="_blank"
+                class="link-body" href="https://compattana.com/">Compattana Co., Ltd.</a>
+            </p>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title  mb-3">ติดต่อเรา</h4>
+            <a href="mailto:#" class="link-body">contact@friendzoneth.com</a><br> 088-5941049
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title  mb-3">นโยบาย</h4>
+            <ul class="list-unstyled text-reset mb-0">
+              <li><a target="_blank" href="terms-of-use.html">เงื่อนไขการบริการ</a></li>
+              <li><a target="_blank"
+                  href="privacy.html">นโยบายความเป็นส่วนตัว</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <div class="col-md-4 col-lg-3">
+          <div class="d-flex px-3">
+            <div class="px-0 text-center">
+              <img src="assets/img/qr-app-store.png" class="" alt="qr-app-store" height="150vh">
+              <span><a href="https://apps.apple.com/th/app/wanheng/id6451129842" target="_blank"><img
+                    src="./assets/img/photos/button-appstore.svg" class="rounded-3 border" height="40vh"
+                    alt=""></a></span>
+            </div>
+            <div class=" px-0 text-center">
+              <img src="assets/img/qr-play-store.png" class="" alt=qr-play-store" height="150vh">
+              <span><a href="https://play.google.com/store/apps/details?id=com.compattana.wanheng_app"
+                  target="_blank"><img src="./assets/img/photos/button-google-play.svg" class="rounded-3 border"
+                    height="40vh" alt=""></a></span>
+            </div>
+          </div>
+          <!-- <div class="widget">
+            <h4 class="widget-title  mb-3">นโยบาย</h4>
+            <ul class="list-unstyled text-reset mb-0">
+              <li><a target="_blank" href="terms-of-use.html">เงื่อนไขการบริการ</a></li>
+              <li><a target="_blank" href="https://pdpa.pro/policies/view/th/zs3Swc8rj2mzsLtogqBhZExn">นโยบายความเป็นส่วนตัว</a></li>
+            </ul>
+          </div> -->
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
+</body>
+
+</html>
